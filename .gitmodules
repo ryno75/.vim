@@ -1,0 +1,18 @@
+[submodule "bundle/hclfmt"]
+	path = bundle/hclfmt
+	url = https://github.com/fatih/hclfmt
+[submodule "bundle/tabular"]
+	path = bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/vim-go"]
+	path = bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule "bundle/vim-hclfmt"]
+	path = bundle/vim-hclfmt
+	url = https://github.com/fatih/vim-hclfmt.git
+[submodule "submodules/neocomplete.vim"]
+	path = submodules/neocomplete.vim
+	url = https://github.com/Shougo/neocomplete.vim.git
+[submodule "submodules/vim-pathogen"]
+	path = submodules/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git

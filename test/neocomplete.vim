@@ -1,0 +1,1 @@
+../submodules/neocomplete.vim/test/neocomplete.vim

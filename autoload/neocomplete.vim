@@ -1,0 +1,1 @@
+../submodules/neocomplete.vim/autoload/neocomplete.vim
