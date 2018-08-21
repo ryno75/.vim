@@ -20,4 +20,9 @@ _It's the whole vim config she-bang._
     $ git submodule update --init
     ```
 
+1. Install hclfmt go bin
+    ```bash
+    $ go get github.com/fatih/hclfmt
+    ```
+
 ### Happy Vim'ing!
