@@ -67,6 +67,9 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:neocomplete#enable_at_startup = 1
 
+" Terraform folding
+let g:terraform_fold_sections=1
+
 " Load pathogen if exists
 "execute pathogen#infect()
 filetype plugin indent on

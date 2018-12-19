@@ -16,3 +16,6 @@
 [submodule "vim-terraform"]
 	path = vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "submodules/vim-terraform"]
+	path = submodules/vim-terraform
+	url = https://github.com/hashivim/vim-terraform.git
