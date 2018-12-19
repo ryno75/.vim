@@ -19,6 +19,9 @@ set expandtab
 set t_Co=256
 set nocp
 
+" Syntax highlighting
+syntax on
+
 " Enable ruler and line numbers
 set ruler
 set number
@@ -29,11 +32,6 @@ set hlsearch
 " Set colorscheme
 colorscheme lucius
 "colorscheme codeschool
-
-" Launch pathogen and plugin/syntax shiz
-execute pathogen#infect()
-filetype plugin indent on
-syntax on
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
@@ -68,3 +66,11 @@ let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:neocomplete#enable_at_startup = 1
+
+" Load pathogen if exists
+"execute pathogen#infect()
+filetype plugin indent on
+runtime! autoload/pathogen.vim
+if exists("g:loaded_pathogen")
+  call pathogen#infect()
+endif
