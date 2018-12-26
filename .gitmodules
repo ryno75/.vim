@@ -19,3 +19,9 @@
 [submodule "submodules/vim-terraform"]
 	path = submodules/vim-terraform
 	url = https://github.com/hashivim/vim-terraform.git
+[submodule "submodules/FastFold"]
+	path = submodules/FastFold
+	url = https://github.com/Konfekt/FastFold.git
+[submodule "submodules/SimpylFold"]
+	path = submodules/SimpylFold
+	url = https://github.com/tmhedberg/SimpylFold.git

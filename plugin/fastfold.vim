@@ -1,0 +1,1 @@
+../submodules/FastFold/plugin/fastfold.vim

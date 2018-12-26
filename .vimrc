@@ -57,6 +57,26 @@ setlocal foldmethod=syntax
 nnoremap <Space> za
 vnoremap <Space> za
 
+" Python folding
+let g:SimpylFold_docstring_preview = 1
+
+" Terraform folding
+let g:terraform_fold_sections=1
+
+" Fastfold folding
+let g:markdown_folding = 1
+let g:tex_fold_enabled = 1
+let g:vimsyn_folding = 'af'
+let g:xml_syntax_folding = 1
+let g:javaScript_fold = 1
+let g:sh_fold_enabled= 7
+let g:ruby_fold = 1
+let g:perl_fold = 1
+let g:perl_fold_blocks = 1
+let g:r_syntax_folding = 1
+let g:rust_fold = 1
+let g:php_folding = 1
+
 " Golang autocompletion stuffs
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 let g:go_highlight_functions = 1
@@ -66,9 +86,6 @@ let g:go_highlight_types = 1
 let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:neocomplete#enable_at_startup = 1
-
-" Terraform folding
-let g:terraform_fold_sections=1
 
 " Load pathogen if exists
 "execute pathogen#infect()
