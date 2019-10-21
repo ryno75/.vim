@@ -57,11 +57,16 @@ setlocal foldmethod=syntax
 nnoremap <Space> za
 vnoremap <Space> za
 
+" Load pathogen if exists
+"execute pathogen#infect()
+filetype plugin indent on
+runtime! autoload/pathogen.vim
+if exists("g:loaded_pathogen")
+  call pathogen#infect()
+endif
+
 " Python folding
 let g:SimpylFold_docstring_preview = 1
-
-" Terraform folding
-let g:terraform_fold_sections=1
 
 " Fastfold folding
 let g:markdown_folding = 1
@@ -87,10 +92,7 @@ let g:go_highlight_operators = 1
 let g:go_highlight_build_constraints = 1
 let g:neocomplete#enable_at_startup = 1
 
-" Load pathogen if exists
-"execute pathogen#infect()
-filetype plugin indent on
-runtime! autoload/pathogen.vim
-if exists("g:loaded_pathogen")
-  call pathogen#infect()
-endif
+" TerraformFmt
+let g:terraform_align=1
+let g:terraform_fold_sections=1
+let g:terraform_fmt_on_save=1
