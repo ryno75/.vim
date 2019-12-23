@@ -25,3 +25,6 @@
 [submodule "submodules/SimpylFold"]
 	path = submodules/SimpylFold
 	url = https://github.com/tmhedberg/SimpylFold.git
+[submodule "submodules/vim-hashicorp-tools"]
+	path = submodules/vim-hashicorp-tools
+	url = https://github.com/hashivim/vim-hashicorp-tools.git
