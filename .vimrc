@@ -53,9 +53,12 @@ endif
 " enable syntax folding
 setlocal foldmethod=syntax
 
-" folding remoap of spacebar to za
+" folding remap of spacebar to za
 nnoremap <Space> za
 vnoremap <Space> za
+
+" maps `//` to search for current visual highlight
+vnoremap // y/\V<C-R>=escape(@",'/\')<CR><CR>
 
 " Load pathogen if exists
 "execute pathogen#infect()
